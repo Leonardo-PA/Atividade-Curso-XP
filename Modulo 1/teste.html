@@ -1,0 +1,23 @@
+<html>
+    <script>
+
+function numerosprimos (num) {
+    for(let numero = 2; numero <= num; numero++){
+        
+        if (ehprimo) console.log (numero);
+
+    }
+}
+function numerosPrimo (num){
+    var ehprimo = true
+    
+    for(let divisor=2; divisor < num; divisor++){
+        if (num % divisor === 0 ) {
+                
+        return ("numero: "+(num)+ ("não é primo"));
+        }
+    }
+    return ("numero: "+ (num)+ ("é primo"));
+}
+    </script>
+</html>
